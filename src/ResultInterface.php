@@ -74,7 +74,7 @@ interface ResultInterface
      *
      * @return string
      */
-    public function getCountryCode(): string;
+    public function getCountryCode(): ?string;
 
     /**
      * Get the ASN number for the ISP owning the IP
@@ -83,7 +83,7 @@ interface ResultInterface
      *
      * @return int
      */
-    public function getAsn(): int;
+    public function getAsn(): ?int;
 
     /**
      * Get whether the field under test is blacklisted
