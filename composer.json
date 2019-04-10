@@ -1,7 +1,7 @@
 {
     "name": "webignition/sfs-result-interfaces",
     "description": "PHP interfaces for models for results from querying api.stopforumspam.org",
-    "keywords": ["stopformmspam.org", "spam", "forum"],
+    "keywords": ["stopforumspam.org", "spam", "forum"],
     "homepage": "https://github.com/webignition/sfs-result-interfaces",
     "type": "library",
     "license": "MIT",
