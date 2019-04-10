@@ -1,6 +1,6 @@
 <?php
 
-namespace webignition\WebResourceInterfaces;
+namespace webignition\SfsResultInterfaces;
 
 interface ResultSetInterface extends \Countable, \Iterator
 {
