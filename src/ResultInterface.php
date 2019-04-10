@@ -5,7 +5,7 @@ namespace webignition\SfsResultInterfaces;
 interface ResultInterface
 {
     const TYPE_EMAIL = 'email';
-    const TYPE_EMAIL_HASH = 'email-hash';
+    const TYPE_EMAIL_HASH = 'emailHash';
     const TYPE_IP = 'ip';
     const TYPE_USERNAME = 'username';
 
