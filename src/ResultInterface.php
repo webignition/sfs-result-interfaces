@@ -17,4 +17,11 @@ interface ResultInterface
      * @return bool
      */
     public function getAppears(): bool;
+
+    /**
+     * Get the field under test
+     *
+     * @return string
+     */
+    public function getValue(): string;
 }
