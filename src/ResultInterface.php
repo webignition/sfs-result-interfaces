@@ -99,7 +99,7 @@ interface ResultInterface
     /**
      * Get whether the field under test is a TOR exit node
      *
-     * Must return NULL if type is not TYPE_IP
+     * Must return FALSE if type is not TYPE_IP
      *
      * @return bool
      */
