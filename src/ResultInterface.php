@@ -95,4 +95,13 @@ interface ResultInterface
      * @return bool
      */
     public function isBlacklisted(): bool;
+
+    /**
+     * Get whether the field under test is a TOR exit node
+     *
+     * Must return NULL if type is not TYPE_IP
+     *
+     * @return bool
+     */
+    public function isTorExitNode(): bool;
 }
